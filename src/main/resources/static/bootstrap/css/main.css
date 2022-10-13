@@ -127,7 +127,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  height: 90px;
+  height: 140px;
   transition: all 0.5s;
   z-index: 997;
   background: #f2f2f2;
@@ -145,6 +145,8 @@ section {
 .header .logo h1 {
   font-size: 30px;
   font-weight: 700;
+  margin-bottom : 50px;
+  margin-left: 50px;
   color: var(--color-default);
   font-family: var(--font-primary);
 }
@@ -152,7 +154,8 @@ section {
 .search-form-wrap {
   position: absolute;
   right: 0;
-  top: 0;
+  margin-bottom: 50px;
+  top:0;
   z-index: 9;
   transition: 0.3s all ease;
   visibility: hidden;
@@ -219,7 +222,8 @@ section {
   }
 
   .navbar ul {
-    margin: 0;
+    margin-right: 600px;
+    margin-bottom : 50px;
     padding: 0;
     display: flex;
     list-style: none;
@@ -249,6 +253,15 @@ section {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+  }
+
+  .navbar ul li:nth-child(3) {
+    left: 750px;
+  }
+
+
+  .navbar ul li:nth-child(4) {
+    left: 750px;
   }
 
   .navbar a:hover,
@@ -642,11 +655,11 @@ section {
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 0.5;
-  bottom: 0;
+  margin-bottom: 50px;
   left: 0;
   right: 0;
+  top:0;
   z-index: 1;
-  top: 0;
 }
 
 .img-bg .img-bg-inner {
